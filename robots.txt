@@ -1,0 +1,36 @@
+# robots.txt for https://wpstarai.vercel.app
+# AI 홈페이지 제작 강의 - 워프스타 구글SEO 전문 교육
+
+# 모든 검색엔진 허용
+User-agent: *
+Allow: /
+
+# 구글봇 최적화
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# 빙봇 허용
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# 네이버봇 허용
+User-agent: Yeti
+Allow: /
+
+# 다음봇 허용
+User-agent: Daumoa
+Allow: /
+
+# 관리자/민감 경로 차단 (필요시 추가)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# 사이트맵 경로
+Sitemap: https://wpstarai.vercel.app/sitemap.xml
+
+# Host 지정
+Host: https://wpstarai.vercel.app
